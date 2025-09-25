@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Verto
 
-## Getting Started
+An interactive, gesture-controlled 3D hologram. Built with [OpenCV](https://opencv.org/), [Mediapipe](https://developers.google.com/mediapipe), [Websockets](https://socket.io/), [Flask](https://flask.palletsprojects.com/en/3.0.x/), [Next.js](https://nextjs.org/), and various [Poimandres](https://github.com/pmndrs) React packages for Three.js. 
 
-First, run the development server:
+![jarvisgif](https://github.com/ishaan1013/jarvis/assets/69771365/e2c0a4f3-3458-4a7c-8be5-e5847a60743e)
+
+
+Click to view our [Video Demonstration](https://www.youtube.com/watch?v=qOElePxRUAs)
+
+## Running Locally
+
+It works just fine on any regular screen (without the hologram effect, of course). But feel free to build a Pepper's Ghost hologram if you'd like. 
+
+### Cloning the repository the local machine.
+
+```bash
+git clone https://github.com/ishaan1013/jarvis
+```
+
+### Backend setup
+
+- Set up a webcam facing upwards, in front of your screen and a little bit below.
+- Ensure OpenCV recognizes your webcam in `backend/camera.py`
+- 🐍 Run the flask app, which will be available at `http://localhost:8000`.
+
+```bash
+flask run
+```
+
+### Running the frontend app
+
+```bash
+npm install
+```
+
+Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Notes
+- Viewing and manipulating 3D models can be resource-intensive.
+- Voice control uses the WebSpeechAPI which currently works best on Chrome, Microsoft Edge, or Safari 14.1
