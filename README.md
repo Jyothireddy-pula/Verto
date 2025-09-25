@@ -14,7 +14,7 @@ It works just fine on any regular screen (without the hologram effect, of course
 ### Cloning the repository the local machine.
 
 ```bash
-git clone https://github.com/Jyothireddpy-pula/Verto
+git clone https://github.com/Jyothireddy-pula/Verto
 ```
 
 ### Backend setup
