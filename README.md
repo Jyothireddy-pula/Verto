@@ -27,7 +27,7 @@ git clone https://github.com/Jyothireddy-pula/Verto
 flask run
 ```
 
-### Running the frontend app
+### Running the frontend app.
 
 ```bash
 npm install
