@@ -20,7 +20,7 @@ git clone https://github.com/Jyothireddy-pula/Verto
 ### Backend setup
 
 - Set up a webcam facing upwards, in front of your screen and a little bit below.
-- Ensure OpenCV recognizes your webcam in `backend/camera.py`.
+- Ensure OpenCV recognizes your webcam in `backend/camera.py`
 - 🐍 Run the flask app, which will be available at `http://localhost:8000`.
 
 ```bash
