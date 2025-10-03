@@ -7,7 +7,7 @@ An interactive, gesture-controlled 3D hologram. Built with [OpenCV](https://open
 
 
 
-## Running Locally
+## Running Locally.
 
 It works just fine on any regular screen (without the hologram effect, of course). But feel free to build a Pepper's Ghost hologram if you'd like. 
 
