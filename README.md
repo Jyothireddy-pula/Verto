@@ -38,6 +38,6 @@ Then, run the application in the command line and it will be available at `http:
 npm run dev
 ```
 
-#### Notes
+#### Notes.
 - Viewing and manipulating 3D models can be resource-intensive.
 - Voice control uses the WebSpeechAPI which currently works best on Chrome, Microsoft Edge, or Safari 14.1
