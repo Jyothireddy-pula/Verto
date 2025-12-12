@@ -156,7 +156,7 @@ Supports commands like:
 ---
 
 # 📸 Demo
-*(Add GIF or YouTube demo here)*
+![jarvisgif](https://github.com/ishaan1013/jarvis/assets/69771365/e2c0a4f3-3458-4a7c-8be5-e5847a60743e)
 
 ---
 
