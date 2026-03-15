@@ -3,6 +3,8 @@
 An interactive, gesture-controlled 3D hologram. Built with [OpenCV](https://opencv.org/), [Mediapipe](https://developers.google.com/mediapipe), [Websockets](https://socket.io/), [Flask](https://flask.palletsprojects.com/en/3.0.x/), [Next.js](https://nextjs.org/), and various [Poimandres](https://github.com/pmndrs) React packages for Three.js. 
 
 ![jarvisgif](https://github.com/ishaan1013/jarvis/assets/69771365/e2c0a4f3-3458-4a7c-8be5-e5847a60743e)
+https://github.com/ishaan1013/jarvis/assets/69771365/e2c0a4f3-3458-4a7c-8be5-e5847a60743e
+
 
 
 # 🚀 Verto — Gesture-Controlled 3D Hologram Interface
